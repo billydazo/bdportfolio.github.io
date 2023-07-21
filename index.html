@@ -1,0 +1,99 @@
+<html>
+<head>
+<body style="background-color:#202121;">
+<title>Billy Dazo - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width =device-width, initial-scale=1">
+</head>
+<body>
+<div class="banner">
+    <div class="navbar">
+        <img src="logo.png" class="logo">
+    </div>
+   <div id="sidenav">
+    <nav>
+    <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Skills</a></li>
+            <li> <a href="#">Experiences</a></li>
+            <li> <a href="#">Contacts</a></li>
+        </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <h1>BILLY DAZO</h1>
+        <p>Exploring the Boundless Horizons of Virtual Assistance and Service <br> My Portfolio Revealed</p>
+        <div>
+        <button type:"button"><span></span>View Resume</button>
+        <button type:"button"><span></span>View Profiencies</button>
+    </div>
+    </div>
+    <div id="menuBtn">
+        <img src="menu.png" id="menu">
+    </div>
+</div>
+    
+    
+    
+<!--About-->
+    
+<section id="about">
+<div class="title-text">
+<p>ABOUT</p>
+<h1> Who I Am? </h1>
+</div>
+<div class="about-box">
+     <div class="abouts">
+         <h1>About Me</h1>
+         <div class="about-desc">
+             <div class="about-icon"></div>
+             <div class="about-text">
+                 <p></p>
+         </div>
+    </div>
+    <div class="abouts-img">
+        <img src="Abouts.jpg">
+    </div>
+ </div>
+    
+</section>
+
+    
+    
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sidenav = document.getElementById("sidenav")
+var menu = document.getElementById("menu")
+
+sidenav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+    if(sidenav.style.right == "-250px"){
+        sidenav.style.right = "0";
+        menu.src = "close.png"
+    }
+    else{
+        sidenav.style.right = "-250px";
+        menu.src = "menu.png";
+    }
+}
+</script>
+
+</body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
